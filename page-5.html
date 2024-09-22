@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var numbers = [2, 4, 5, 12, 1, 67, 45, 15];
+
+        function findMax(num) {
+
+            return Math.max.apply(null, num);
+        }
+        document.write("The Max number is : " + findMax(numbers));
+    </script>
+</body>
+</html>
